@@ -1,0 +1,116 @@
+*{ 
+    border:  1px solid rgb(255, 0, 115) ;
+ }
+ 
+ body{
+     border: 1px dashed rgb(21, 0, 255) ;
+ }
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+}
+ /* title style */
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+}
+.Awlad{
+    font-weight: 900;
+    font-size: 28px;
+    color: #0D1321;
+    margin: 50px 150px;
+}
+
+.nav-resume{
+    margin: 38px 150px;
+    padding: 17px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+}
+/* banner styles */
+.nav-banner{
+    background-image: url('../assets/Hero-bg.png');
+    background-size: 1440px 652px ;
+    padding: 26px 221px 45px 221px;
+    text-align: center;
+}
+.nav-head{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 68px;
+    width: 998px;
+    color: #0D1321;
+  margin-left: 221px;
+  margin-right: 221px;
+  text-align: center;
+}
+nav p {
+    margin-left: 294px;
+    margin-right: 294px; 
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    padding: 21px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: white;
+    width: 224px;
+    height: 65px;
+}
+/* why web style  */
+.title{
+    color: #0D1321;
+    font-weight: 900;
+    font-size: 32px;
+}
+.web-title{
+    text-align: center;
+   padding: 0px 47px 48px 47px ;
+}
+ .why-web{
+padding: 80px 97px;
+margin: 74px 152px 90px 148px ;}
+
+
+.web-text-img{
+display: flex;
+justify-content: space-between;
+padding: 48px;
+}
+ 
+ .gap{
+    margin: 32px 0 ;
+ }
+ .btn{
+    opacity: 70%;
+    color: #0D1321;
+    padding: 12px 20px;
+ }
+ .video-discription{
+    text-align: center;
+ }
+ .video-section{
+    margin: 90px 152px 151px 148px;
+ }
+ .video{
+    padding: 32px;
+    
+ }
+ .video-corner{
+    border-radius: 16px;
+ }
