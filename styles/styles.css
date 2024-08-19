@@ -1,10 +1,10 @@
-*{ 
+/* *{ 
     border:  1px solid rgb(255, 0, 115) ;
  }
  
  body{
      border: 1px dashed rgb(21, 0, 255) ;
- }
+ }  */
 
 .azeret-mono-font {
   font-family: "Azeret Mono", monospace;
@@ -44,16 +44,14 @@ p{
     padding: 26px 221px 45px 221px;
     text-align: center;
 }
-.nav-head{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 68px;
-    width: 998px;
-    color: #0D1321;
-  margin-left: 221px;
-  margin-right: 221px;
-  text-align: center;
-}
+
+  .nav-head{
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 68px;
+   color: #0D1321;
+   /* width: 998px; */
+  }
 nav p {
     margin-left: 294px;
     margin-right: 294px; 
@@ -72,6 +70,8 @@ nav p {
     width: 224px;
     height: 65px;
 }
+/* main styles  */
+
 /* why web style  */
 .title{
     color: #0D1321;
@@ -91,10 +91,14 @@ margin: 74px 152px 90px 148px ;}
 display: flex;
 justify-content: space-between;
 padding: 48px;
+ border: 1px solid lightgray;
+ background-color: rgb(252, 236, 234);
 }
+
  
  .gap{
     margin: 32px 0 ;
+    gap: 24px;
  }
  .btn{
     opacity: 70%;
@@ -106,8 +110,12 @@ padding: 48px;
     margin-bottom: 48px;
     margin-top: 0px;
  }
- .video-section{
-    margin: 90px 152px 151px 148px;
+ .center{
+   text-align: center;
+ }
+ .section{
+   margin: 74px 152px 90px 148px ;
+    text-align: center;
  }
  .video{
     padding: 32px;
@@ -118,13 +126,17 @@ padding: 48px;
  }
  /* target styles */
  .target{
-    display: flex;
+   display: flex;
     gap: 24px;
+    text-align: center;
  }
  .target-class{
  padding: 40px;
+ border: 1px solid lightgray;
+ background-color: rgb(252, 236, 234)
+
+}
  
- }
  .target-head{
     font-weight: 900;
     font-size: 24px;
@@ -135,3 +147,49 @@ padding: 48px;
     font-weight: 800;
     font-size: 16px;
  }
+
+  /* next target style */
+ .next-class{
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+    border: 1px solid lightgray;
+    background-color: rgb(252, 236, 234)
+ }
+
+  .img-target{
+    margin: 50px 0;
+ }
+  p{
+   margin-bottom: 24px;
+
+  }
+  /* main footer styles */
+  .main-footer{
+   text-align: center;
+  }
+  .main-footer{
+   background-image: url("../assets/handshake.jpg");
+   
+   border-radius: 16px;
+   
+  
+  }
+  .main-footer-description{
+   color: white;
+  }
+  #main-foot-description{
+ color: white;
+ opacity: 70%;
+  }
+  .input{
+   padding: 19px 225px 19px 20px ;
+  }
+  .submit{
+   padding: 17px 20px;
+  }
+
+  .footer{
+   display: flex;
+   justify-content: space-between;
+  }
